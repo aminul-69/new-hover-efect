@@ -1,0 +1,90 @@
+                  /* HEADER */
+ .head{
+    background-image: url( https://placehold.co/600x400 );
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: grid;
+    place-items: center;
+    
+ }
+ .head h3{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+    color: blue;
+    font-size: 100px;
+    text-transform: capitalize;
+ }
+ .head h4{
+    font-style: oblique;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color:blueviolet;
+ }
+ .head a{
+    border: none;
+    border-radius: 40px;
+    padding: 20px 40px;
+    transition:  2s ease;
+ }
+ .head a:hover{
+    border: none;
+    background-color: aqua;
+    color: black;
+ }
+
+                        /* PRODUCT DETAILS */
+
+         .card1{
+           
+            background-color: wheat;
+            color:black;
+            border: none;
+            box-shadow: 20px 10px 20px black;
+            border-radius: 45px;
+            padding: 15px;
+            transition: all 0.5s ease;
+         }
+         .card1:hover{
+            transform: translateX(-10px);
+            background-color: black;
+            color: aliceblue;
+            box-shadow: 40px 18px 40px none ;
+         }  
+         
+         
+         .card2{
+            border: none;
+            border-radius: 45px;
+            background-color: chocolate;
+            margin: auto;
+            padding: auto;
+            padding: 15px;
+            box-shadow: 30px 15px 30px ;
+            transition: all 0.5s ease;
+         }
+         .card2:hover{
+            box-shadow: 30px 15px 30px black;
+            background-color: coral;
+            color: ;
+            transform:translateX(-10px);
+
+         }
+          .submit1 a{
+           background-color: cyan;
+           color: black;
+            
+            border: none;
+            border-radius: 45px;
+            transition: 0.3s ease;
+
+          }
+         .submit1 a:hover{
+            transform: translateX(-5px);
+            background-color: black; 
+            color: aliceblue;
+            box-shadow: 20px 8px 20px black;
+         }
+                                
